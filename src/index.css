@@ -1,0 +1,69 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 100%;
+  height: calc(100vh - 50px);
+
+ 
+}
+
+.container{
+  background-color:bisque;
+  width: 800px;
+  height: 300px;
+  padding: 20px 20px 0 80px;
+  font-size: 12px;
+  position: relative;
+  border: solid salmon;
+  box-shadow: 2px 5px 10px whitesmoke;
+  
+}
+.marks{
+  
+  font-size: 150px;
+  position: absolute;
+  left:15px;
+  top: -50px;
+  
+}
+.fa-quote-left{
+  font-size: 80px;
+}
+h1{
+  padding:   20px;
+}
+.containerbtn{
+  display:flex;
+  gap: 20px;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 15px;
+  flex-direction: column;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: flex-end;
+   
+}
+
+.btnNext{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: none;
+  
+}
+
