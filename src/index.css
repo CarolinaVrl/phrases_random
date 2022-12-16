@@ -17,6 +17,10 @@
 
  
 }
+body{
+  font-family:sans-serif;
+}
+
 
 .container{
   background-color:bisque;
@@ -27,6 +31,7 @@
   position: relative;
   border: solid salmon;
   box-shadow: 2px 5px 10px whitesmoke;
+  
   
 }
 
