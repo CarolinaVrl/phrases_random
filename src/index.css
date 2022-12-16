@@ -29,6 +29,7 @@
   box-shadow: 2px 5px 10px whitesmoke;
   
 }
+
 .marks{
   
   font-size: 150px;
@@ -65,5 +66,10 @@ h1{
   font-size: 20px;
   border: none;
   
+}
+.btnNext:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px 8px black;
+  scale: 105%;
 }
 
